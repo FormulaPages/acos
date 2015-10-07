@@ -1,0 +1,24 @@
+{
+  "name": "formula-acos",
+  "version": "1.0.0",
+  "description": "ACOS function",
+  "main": "ACOS.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel ACOS.es6 -m umd --out-file ACOS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/acos.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/acos/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/acos#readme",
+  "dependencies": {
+    "formula-errors": "^1.0.2",
+    "formula-isnumber": "^1.0.1"
+  }
+}
