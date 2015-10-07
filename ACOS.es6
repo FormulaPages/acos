@@ -7,6 +7,6 @@ export default function ACOS(value) {
     return error.value;
   }
 
-  return Math.acos(number);
+  return Math.acos(value);
 
 }

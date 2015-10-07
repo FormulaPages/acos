@@ -20,6 +20,5 @@ npm install --save formula-acos
 
 ```
 var acos = require('formula-pmt');
-// 100K at 5% for 360 periods
 acos( 1 )
 ```
