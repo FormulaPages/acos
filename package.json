@@ -4,8 +4,7 @@
   "description": "ACOS function",
   "main": "ACOS.js",
   "scripts": {
-    "test": "mocha test",
-    "build": "babel ACOS.es6 -m umd --out-file ACOS.js"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
